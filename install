@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo cp -r src/bin /opt/android-file-transfer
+sudo ln -s /opt/android-file-transfer/android-file-transfer /usr/bin/android-file-transfer
+
+sudo cp src/android-file-transfer.desktop /usr/share/applications

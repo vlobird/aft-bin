@@ -1,0 +1,11 @@
+-I/home/flo/.GIT/android-file-transfer-linux/.
+-I/home/flo/.GIT/android-file-transfer-linux
+-I/home/flo/.GIT/android-file-transfer-linux/mtp/backend/posix
+-I/home/flo/.GIT/android-file-transfer-linux/mtp/backend/linux
+-D_FILE_OFFSET_BITS=64
+-DFUSE_USE_VERSION=26
+-D_LARGEFILE_SOURCE=1
+-D_FILE_OFFSET_BITS=64
+-o
+/home/flo/.GIT/android-file-transfer-linux/build/qt/moc_commandqueue.cxx
+/home/flo/.GIT/android-file-transfer-linux/qt/commandqueue.h
