@@ -1,4 +1,10 @@
 #!/bin/bash
+
+sudo apt -y install \
+	libqt4-dev \
+	libfuse-dev \
+	libreadline-dev
+
 sudo cp -r src/bin /opt/android-file-transfer
 sudo ln -s /opt/android-file-transfer/android-file-transfer /usr/bin/android-file-transfer
 
